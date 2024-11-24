@@ -12,6 +12,7 @@ public class TestController {
     @GetMapping
     public ResponseEntity<String> test() {
         log.info("test");
+        System.out.println("SAdf");
         return ResponseEntity.ok("good");
     }
 }
