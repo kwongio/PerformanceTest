@@ -1,1 +1,1 @@
-web: java -jar build/libs/PerformanceTest-0.0.1-SNAPSHOT.jar
+web: java -jar target/test.jar
