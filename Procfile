@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT$JAVA_OPTS -jar "target/test.jar"
+web: java -jar build/libs/PerformanceTest-0.0.1-SNAPSHOT.jar
